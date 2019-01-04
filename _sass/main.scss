@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+.current {
+    color: green;
+  }
+
+#draw-area{
+  width: 100%;
+}
+body{
+  background: #633856;
+  margin: 0;
+  padding: 0;
+}
+.nav-style{
+  background: #4b1f49;
+}
+#footer{
+  background: rgba(34, 33, 38,0.6);
+}
+main{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.container{
+  img{
+    max-width: 50%;
+    margin: auto;
+  }
+}
