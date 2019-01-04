@@ -3,7 +3,7 @@ $(document).ready(()=>{
     load_data();
 });
 function load_data(){
-    $.getJSON("/assets/data/test.json", json =>{
+    $.getJSON("/testpage/assets/data/test.json", json =>{
         data = json;
         console.log(data.name);
     });
